@@ -2,6 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
 </head>
 
 <header>
@@ -15,7 +17,10 @@
             <div id="nav-right">
                 <div class="nav-items">Gmail</div>
                 <div class="nav-items">Images</div>
-                <div class="nav-items">Store</div>
+                <div class="nav-items">
+                    <span class="material-icons-outlined" id="apps-icon">
+                        apps</span>
+                </div>
                 <div class="nav-items">
                     <div id="sign-in">Sign In</div> 
                 </div>                   
@@ -26,7 +31,19 @@
 
 <body>
     <div id="main-content">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google hompage">
-    </div>  
+        <div id="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" id="logo" alt="google hompage">
+        </div>
+        <div id="search-section">
+            <div id="search-box">
+                <span class="material-icons-outlined" id="mag-glass">search</span>    
+                <input>
+            </div>
+        </div>
+        <div id="search-buttons">
+            <div class="sbutton">Search</div>
+            <div class="sbutton">I'm Feeling Lucky</div>
+        </div>
+    </div> 
 </body>
 </html>
