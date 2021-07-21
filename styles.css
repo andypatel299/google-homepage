@@ -6,10 +6,12 @@ html {
 
 
 body {
-    background-color: white;
+    
+    padding: 0;
     width: auto;
     height: 100vh;
     margin: 0 10px 0 10px;
+    position: relative;
 }
 
 
@@ -19,6 +21,7 @@ body {
     height: 60px;
     display: flex;
     flex-direction: row;
+    margin: auto;
     
 }
 
@@ -74,6 +77,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 2000px;
+    margin: auto;
+
 }
 
 #main-logo {
@@ -103,6 +109,7 @@ body {
     flex-direction: left;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
     
 }
 
@@ -111,7 +118,7 @@ body {
 }
 
 #mag-glass {
-    opacity: 0.6;
+    opacity: 0.4;
     margin-left: 10px;
     margin-top: 3px;
 }
@@ -127,6 +134,56 @@ input {
 
 input:focus {
     outline: none;
+}
+
+#search-buttons {
+    margin-top: 36px;
+    height: 40px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.sbutton {
+    border: 1px solid transparent;
+    width: 40%;
+    background-color: rgb(235, 235, 235);
+    padding: 10px 12px 10px 12px;
+    border-radius: 2px;
+    color: #797171;
+    overflow: hidden;
+    
+}
+
+.sbutton:hover {
+    border: 1px solid gray;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+
+#imlucky {
+    width: 50%;
+}
+
+
+#footer-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(218, 218, 218);
+    width: 100%;
+    height: 45px;
+}
+
+#footer-nav-left {
+    
 }
 
 
